@@ -2,8 +2,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    color: #444444;
+}
+
 :root {
     --mainColor: #5846f9;
+}
+
+.main-color {
+    color: var(--mainColor);
 }
 /* #######  Start Home Section  ####### */
 .hero {
@@ -80,4 +88,25 @@
     }
 }
 /* ####### end Home Section ####### */
+
+/* ####### start Home Section ####### */
+
+
+.about  h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #2c4964;
+}
+
+.about .read-more{
+    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+    font-weight: 500;
+
+}
+
+.about .read-more:hover{
+    background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+}
+
+/* ####### end About Section ####### */
 
