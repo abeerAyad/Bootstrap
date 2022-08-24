@@ -1,0 +1,83 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --mainColor: #5846f9;
+}
+/* #######  Start Home Section  ####### */
+.hero {
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.navbar ul li  a{
+    color: rgba(225,225,255,.7);
+    font-size: 15px;
+    transition: all .4s;
+}
+
+.navbar ul li {
+    position: relative;
+}
+.navbar ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: .5rem;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.navbar ul li:hover a::before {
+    width: 80%;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+.navbar ul li:first-child a {
+    color: #fff;
+}
+
+.text-gray {
+    color: rgba(225,225,255,.8);
+}
+
+.border-gray {
+    border-color: rgba(225,225,255,.7);
+}
+
+.hero button {
+    transition: all .5s;
+}
+
+ .hero button:hover {
+    background-color: #fff;
+    color: var(--mainColor) !important ;
+ }
+
+.animated {
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+/* ####### end Home Section ####### */
+
