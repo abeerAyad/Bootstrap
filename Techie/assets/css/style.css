@@ -13,6 +13,10 @@ body {
 .main-color {
     color: var(--mainColor);
 }
+
+.bg-color {
+    background-color: var(--mainColor);
+}
 /* #######  Start Home Section  ####### */
 .hero {
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
@@ -109,4 +113,128 @@ body {
 }
 
 /* ####### end About Section ####### */
+
+/* ####### Start count Section ####### */
+
+
+.count {
+    background: linear-gradient(90deg , rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url(../img/counts-bg.png) no-repeat center ;
+    padding: 80px 0 60px ;
+}
+
+/* ####### end count Section ####### */
+
+/* ####### Start Services Section ####### */
+
+
+.services .title h2 {
+    position: relative;
+}
+.services .title h2::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--mainColor);
+}
+
+.services  .icon-service svg path  {
+    transition: all .4s ease-in-out;
+}
+.service-card  {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+}
+
+ .service-card:hover {
+    border-color: #fff;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 10%);
+    transform: scale(1.1);
+}
+
+.icon-service {
+    width: 100px;
+    height: 100px;
+}
+
+.iconbox-blue   .icon-service i {
+    color:  #47aeff;
+}
+
+.iconbox-blue:hover   .icon-service svg path {
+    fill:  #47aeff;
+}
+.iconbox-blue:hover   .icon-service i {
+    color: #fff;
+}
+
+  .iconbox-orange .icon-service  i {
+    color: #ffa76e;
+}
+
+.iconbox-orange:hover   .icon-service svg path {
+    fill: #ffa76e;
+}
+.iconbox-orange:hover   .icon-service i {
+    color: #fff;
+}
+
+  .iconbox-pink  .icon-service i {
+    color: #e80368;
+}
+
+.iconbox-pink:hover   .icon-service svg path {
+    fill:  #e80368;;
+}
+.iconbox-pink:hover   .icon-service i {
+    color: #fff;
+}
+
+
+  .iconbox-yellow .icon-service  i {
+    color: #ffbb2c;
+}
+
+.iconbox-yellow:hover   .icon-service svg path {
+    fill:  #ffbb2c;
+}
+.iconbox-yellow:hover   .icon-service i {
+    color: #fff;
+}
+
+ .iconbox-oranged .icon-service  i {
+    color: #ff5828;;
+}
+
+.iconbox-oranged:hover .icon-service svg path {
+    fill:  #ff5828;
+}
+.iconbox-oranged:hover .icon-service i {
+    color: #fff;
+}
+
+ .iconbox-teal   .icon-service i {
+    color: #11dbcf;
+}
+
+.iconbox-teal:hover  .icon-service svg path {
+    fill:  #11dbcf;
+}
+.iconbox-teal:hover   .icon-service i {
+    color: #fff;
+}
+.service-card h4 {
+    color: #2c4964;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.service-card p {
+    font-size: 14px;
+}
+/* ####### End Services Section ####### */
 
