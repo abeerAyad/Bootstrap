@@ -307,13 +307,13 @@ section  .title h2::before {
     top: 485px;
 }
 
-.image-wrap:nth-child(8) {
+.portfolio-item:nth-child(8) {
     position: absolute;
     right: 0;  
     top: 740px;
 }
 
-.image-wrap:nth-child(9) {
+.portfolio-item:nth-child(9) {
     position: absolute;
   
     top: 820px;
@@ -368,3 +368,31 @@ section  .title h2::before {
 }
 
 /* ####### start price card Section ####### */
+
+
+.faq {
+    background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+    color: #fff;
+}
+.accordion-button{
+    color: #2c4964;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.accordion-button i {
+    padding: 0 10px;
+    font-size: 24px;
+    color: var(--mainColor);
+}
+
+.accordion-collapse {
+    color: #2c2c2c;
+    font-size: 16px;
+}
+.accordion-body {
+    padding-left: 65px;
+    padding-top: 0;
+}
