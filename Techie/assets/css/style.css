@@ -396,3 +396,113 @@ section  .title h2::before {
     padding-left: 65px;
     padding-top: 0;
 }
+
+.contact-info {
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 20px 0 30px 0;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    color: #2c4964;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.contact-info p {
+    font-size: 14px;
+}
+
+.contact form input {
+    padding: 10px 15px;
+    box-shadow: none;
+}
+.contact form {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+
+}
+.contact form .send {
+    outline: none ;
+    border: none;
+    padding: 10px 24px;
+    background-color: var(--mainColor);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+
+.contact form .send:hover {
+    background: #7b27d8;
+}
+
+footer {
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
+
+}
+.footer-top {
+}
+.footer-contact h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.footer-contact p {
+    font-size: 15px;
+}
+.footer-contact div {
+    margin-top: 30px;
+}
+.footer-top h4 {
+    padding-bottom: 12px;
+}
+.footer-links ul li {
+    font-size: 14px;
+    color: rgba(225, 225, 225, .8);
+    padding: 10px 0;
+}
+.footer-newsletter form {
+    margin-top: 30px;
+}
+.footer-newsletter p {
+    font-size: 15px;
+}
+.footer-newsletter form .subscribe {
+    outline: none;
+    border: none;
+    background: rgba(123, 39, 216, 0.8);
+    box-shadow: 0 2px 15px rgb(0  0 0 /10%);
+    padding: 0 20px;
+}
+
+.footer-newsletter form .subscribe:hover {
+    background: #5846f9;;
+}
+
+.footer-bottom {
+    border-top: 1px solid #8577fb;
+}
+.footer-bottom p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.social-icon a {
+    background-color: rgba(225, 225, 225, .1);
+    color: #fff;
+    margin-right: 4px;
+    display: inline-block;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 8px 0;
+    text-align: center;
+    line-height: 1;
+    transition: all .4s;
+}
+
+.social-icon a:hover {
+    background-color: rgba(225, 225, 225, .2);
+
+}
