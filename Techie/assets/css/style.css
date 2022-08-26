@@ -17,6 +17,29 @@ body {
 .bg-color {
     background-color: var(--mainColor);
 }
+
+.bg-section {
+    background-color: #f9f8ff;
+}
+
+section  .title h2::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--mainColor);
+}
+.btns{
+    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+    font-weight: 500;
+
+}
+
+ .btns:hover{
+    background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+}
 /* #######  Start Home Section  ####### */
 .hero {
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
@@ -102,15 +125,7 @@ body {
     color: #2c4964;
 }
 
-.about .read-more{
-    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
-    font-weight: 500;
 
-}
-
-.about .read-more:hover{
-    background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
-}
 
 /* ####### end About Section ####### */
 
@@ -127,18 +142,8 @@ body {
 /* ####### Start Services Section ####### */
 
 
-.services .title h2 {
-    position: relative;
-}
-.services .title h2::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50px;
-    width: 60px;
-    height: 3px;
-    background-color: var(--mainColor);
-}
+
+
 
 .services  .icon-service svg path  {
     transition: all .4s ease-in-out;
@@ -238,3 +243,128 @@ body {
 }
 /* ####### End Services Section ####### */
 
+
+.details h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.details p {
+    font-size: 14px;
+    color: #848484;
+}
+
+.slide-card p {
+    height: 260px;
+    box-shadow: 0 0px 20px 0 rgb(0 0 0 / 10%);
+    font-style: italic;
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.slide-card p i {
+    color: #b1a9fc;
+    font-size: 26px;
+}
+
+.img-absolute {  
+    bottom: -38px;
+    left: 23px;
+}
+
+.slide-card img {
+    width: 90px;
+    border: 5px solid  #b1a9fc;
+
+}
+.portfolio-item {
+    margin-bottom: 30px ;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-item:nth-child(4) {
+    margin-top: 25px;
+
+}
+.portfolio-item:nth-child(5) {
+    position: absolute;
+    top: 265px;
+    left: 380px;
+
+}
+
+.portfolio-item:nth-child(6) {
+    position: absolute;
+    top: 225px;
+    right: 0;
+}
+
+.portfolio-item:nth-child(7) {
+    position: absolute;
+    right: 0;
+    top: 485px;
+}
+
+.image-wrap:nth-child(8) {
+    position: absolute;
+    right: 0;  
+    top: 740px;
+}
+
+.image-wrap:nth-child(9) {
+    position: absolute;
+  
+    top: 820px;
+    left: 381px;
+}
+
+
+/* ####### start price card Section ####### */
+
+.card-header {
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c4964;
+    background: #f8f8f8;
+}
+
+.price-item {
+    font-size: 36px;
+    position: relative;
+    
+}
+.price .card {
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 /10%);
+}
+.price-item span {
+    font-size: 15px;
+    color: #bababa;
+    font-weight: 300;
+}
+.price ul li {
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+.ultmate {
+    overflow: hidden;
+}
+
+.ultmate .advance {
+    position: absolute;
+    top: 18px;
+    right: -66px;
+    background-color: var(--mainColor);
+    transform: rotate(45deg);
+    color: #fff;
+    z-index: 1;
+    width: 200px;
+    padding: 1px 0 3px 0;
+    font-size: 14px;
+    font-weight: 300;
+   
+}
+
+/* ####### start price card Section ####### */
