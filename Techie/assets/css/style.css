@@ -25,6 +25,7 @@ body {
 .header {
     background: rgba(24, 6, 185, 0.8);
     padding: 12px 0;
+    z-index: 1000;
 }
 
 section  .title h2::before {
@@ -293,50 +294,6 @@ section  .title h2::before {
     color: #fff;
     background: #5846f9;
 }
-/* .portfolio-item:nth-child(2) {
-   left:386px;
-
-}
-
-.portfolio-item:nth-child(3) {
-    right: 0;
- 
- }
-.portfolio-item:nth-child(4) {
-   top: 341px;
-
-}
-.portfolio-item:nth-child(5) {
-    position: absolute;
-    top: 265px;
-    left: 380px;
-
-}
-
-.portfolio-item:nth-child(6) {
-    position: absolute;
-    top: 225px;
-    right: 0;
-}
-
-.portfolio-item:nth-child(7) {
-    position: absolute;
-    right: 0;
-    top: 485px;
-}
-
-.portfolio-item:nth-child(8) {
-    position: absolute;
-    right: 0;  
-    top: 740px;
-}
-
-.portfolio-item:nth-child(9) {
-    position: absolute;
-  
-    top: 820px;
-    left: 381px;
-} */
 
 .portfolio-overlay {
     background: rgba(88, 70, 249, 0.8);
