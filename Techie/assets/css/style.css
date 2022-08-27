@@ -22,11 +22,16 @@ body {
     background-color: #f9f8ff;
 }
 
+.header {
+    background: rgba(24, 6, 185, 0.8);
+    padding: 12px 0;
+}
+
 section  .title h2::before {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: calc(50% - 25px);
     width: 60px;
     height: 3px;
     background-color: var(--mainColor);
@@ -40,7 +45,7 @@ section  .title h2::before {
  .btns:hover{
     background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
-/* #######  Start Home Section  ####### */
+/* #######  Start Home   ####### */
 .hero {
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
     background-size: cover;
@@ -114,9 +119,9 @@ section  .title h2::before {
         transform: translateY(15px);
     }
 }
-/* ####### end Home Section ####### */
+/* ####### end Home  ####### */
 
-/* ####### start Home Section ####### */
+/* ####### start Home  ####### */
 
 
 .about  h3 {
@@ -127,23 +132,18 @@ section  .title h2::before {
 
 
 
-/* ####### end About Section ####### */
+/* ####### end About  ####### */
 
-/* ####### Start count Section ####### */
-
+/* ####### Start count  ####### */
 
 .count {
     background: linear-gradient(90deg , rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url(../img/counts-bg.png) no-repeat center ;
     padding: 80px 0 60px ;
 }
 
-/* ####### end count Section ####### */
+/* ####### end count  ####### */
 
-/* ####### Start Services Section ####### */
-
-
-
-
+/* ####### Start Services  ####### */
 
 .services  .icon-service svg path  {
     transition: all .4s ease-in-out;
@@ -241,7 +241,7 @@ section  .title h2::before {
 .service-card p {
     font-size: 14px;
 }
-/* ####### End Services Section ####### */
+/* ####### End Services  ####### */
 
 
 .details h4 {
@@ -277,15 +277,33 @@ section  .title h2::before {
     border: 5px solid  #b1a9fc;
 
 }
-.portfolio-item {
-    margin-bottom: 30px ;
-}
+
+/* ####### Start Portfolio  ####### */
+
 
 .portfolio-item {
     margin-bottom: 30px;
 }
+.portfolio .nav-link {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 500;
+}
+.portfolio .nav-link.active {
+    color: #fff;
+    background: #5846f9;
+}
+/* .portfolio-item:nth-child(2) {
+   left:386px;
+
+}
+
+.portfolio-item:nth-child(3) {
+    right: 0;
+ 
+ }
 .portfolio-item:nth-child(4) {
-    margin-top: 25px;
+   top: 341px;
 
 }
 .portfolio-item:nth-child(5) {
@@ -318,10 +336,65 @@ section  .title h2::before {
   
     top: 820px;
     left: 381px;
+} */
+
+.portfolio-overlay {
+    background: rgba(88, 70, 249, 0.8);
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.image-wrap:hover .portfolio-overlay {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.image-wrap .portfolio-overlay  .portfolio-info {
+    position: absolute;
+    top: 10%;
+    opacity: 0;
+    transition: all ease-in-out .4s ;
+
+}
+.image-wrap:hover .portfolio-overlay .portfolio-info  {
+    top: calc(50% - 48px);
+    opacity: 1;
+}
+.portfolio-overlay .portfolio-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.portfolio-overlay .portfolio-info p {
+    font-size: 14px;
 }
 
+.portfolio-overlay .portfolio-link i {
+    font-size: 22px;
+    color: rgba(225, 225, 225,.6);
+    display: inline-block;
+    margin:0 4px;
+}
 
-/* ####### start price card Section ####### */
+.image-wrap .portfolio-overlay  .portfolio-link {
+    position: absolute;
+    bottom: 10%;
+    opacity: 0;
+    transition: all ease-in-out .4s ;
+
+}
+.image-wrap:hover .portfolio-overlay .portfolio-link  {
+    bottom: calc(50% - 50px);
+    opacity: 1;
+}
+/* ####### End Portfolio  ####### */
+
+
+/* ####### start price card  ####### */
 
 .card-header {
     padding: 20px 15px;
@@ -367,8 +440,9 @@ section  .title h2::before {
    
 }
 
-/* ####### start price card Section ####### */
+/* ####### Etart price card  ####### */
 
+/* ####### Start FAQ  ####### */
 
 .faq {
     background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
@@ -396,6 +470,10 @@ section  .title h2::before {
     padding-left: 65px;
     padding-top: 0;
 }
+/* ####### End FAQ  ####### */
+
+
+  /* ####### Start Contact #######  */
 
 .contact-info {
     box-shadow: 0 0 30px rgb(214 215 216 / 60%);
@@ -438,12 +516,15 @@ section  .title h2::before {
     background: #7b27d8;
 }
 
+  /* ####### End Contact #######  */
+
+  /* ####### Start Footer #######  */
+
 footer {
     background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%),url(../img/hero-bg.jpg) center no-repeat;
 
 }
-.footer-top {
-}
+
 .footer-contact h3 {
     font-size: 28px;
     margin-bottom: 30px;
@@ -506,3 +587,4 @@ footer {
     background-color: rgba(225, 225, 225, .2);
 
 }
+  /* ####### End Footer #######  */
