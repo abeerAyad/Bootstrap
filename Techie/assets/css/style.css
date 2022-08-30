@@ -244,47 +244,8 @@ section  .title h2::before {
 }
 /* ####### End Services  ####### */
 
-.testimontals {
-    min-width: 100%;
-    height: auto;
-}
-.details h4 {
-    font-size: 20px;
-    font-weight: 700;
-}
-.details p {
-    font-size: 14px;
-    color: #848484;
-}
-
-.slide-card p {
-    height: 260px;
-    box-shadow: 0 0px 20px 0 rgb(0 0 0 / 10%);
-    font-style: italic;
-    background-color: #fff;
-    border-radius: 6px;
-    font-size: 20px;
-}
-
-.slide-card p i {
-    color: #b1a9fc;
-    font-size: 26px;
-}
-
-.img-absolute {  
-    bottom: -38px;
-    left: 23px;
-}
-
-.slide-card img {
-    width: 90px;
-    border: 5px solid  #b1a9fc;
-
-}
 
 /* ####### Start Portfolio  ####### */
-
-
 .portfolio-item {
     margin-bottom: 30px;
 }
